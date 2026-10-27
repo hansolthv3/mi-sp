@@ -1,0 +1,571 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    border-top: 11px solid #ff3281;
+    border-bottom: 15px solid #ff3281;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+.centrar{
+    text-align: center;
+}
+
+/* CABECERA */
+.Cabecera{
+    height: 218px;
+    padding-top: 15px;
+    background-color: #fff9f1;
+}
+
+.Logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+}
+
+.Logo img{
+    width: 186px;
+    height: 128px;
+}
+
+.Redes{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 41px 27px 0px 0px;
+    text-align: right;
+}
+
+.Redes a{
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.Redes img{
+    width: 46px;
+    height: 46px;
+}
+
+.Menu{
+    height: 44px;
+    margin-top: 11px;
+    border: 3px solid black;
+}
+
+.Menu a{
+    display: inline-block;
+    width: 25%;
+    line-height: 38px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.2s;
+}
+
+.Menu a:hover{
+    color: #ff3281;
+}
+
+/* PRINCIPAL */
+.Principal{
+    height: 526px;
+    padding-top: 152px;
+    background-image: url(imagenes/fondopiedras.jpg);
+    background-size: cover;
+    background-position: center 65%;
+    color: white;
+}
+
+.Principal h1{
+    font-size: 41px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.Principal p{
+    margin-top: 6px;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.Boton_Rosa,
+.Boton_Contorno{
+    display: inline-block;
+    vertical-align: top;
+    height: 62px;
+    line-height: 58px;
+    margin-top: 51px;
+    border: 2px solid #ff3281;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.Boton_Rosa{
+    width: 197px;
+    margin-right: 34px;
+    background-color: #ff3281;
+}
+
+.Boton_Rosa:hover{
+    background-color: #e0226b;
+    border-color: #e0226b;
+}
+
+.Boton_Contorno{
+    width: 130px;
+}
+
+.Boton_Contorno:hover{
+    background-color: #ff3281;
+}
+
+/* PRODUCTOS */
+.Productos{
+    height: 341px;
+    background-color: white;
+}
+
+.Productos_I{
+    display: inline-block;
+    vertical-align: top;
+    width: 750px;
+    padding: 26px 0px 0px 20px;
+}
+
+.Productos_I h2{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.Productos_I p{
+    width: 600px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.Productos_D{
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    padding-top: 22px;
+}
+
+.Productos_D img{
+    width: 427px;
+    height: 299px;
+}
+
+/* EQUIPO */
+.Equipo{
+    padding: 34px 0px 23px 0px;
+    background-color: #fff9f1;
+}
+
+.Equipo h2{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.Equipo_I{
+    display: inline-block;
+    vertical-align: top;
+    width: 613px;
+}
+
+.Equipo_I img{
+    width: 585px;
+    height: 424px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.Equipo_D{
+    display: inline-block;
+    vertical-align: top;
+    width: 587px;
+    padding: 75px 30px 0px 0px;
+}
+
+.Puesto{
+    margin-bottom: 20px;
+}
+
+.Puesto h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.Puesto p{
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/* NOTICIAS */
+.Noticias{
+    padding: 26px 0px 100px 0px;
+}
+
+.Noticias h2{
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    font-size: 41px;
+    line-height: 43px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.Noticias_I{
+    display: inline-block;
+    vertical-align: top;
+    width: 625px;
+}
+
+.Noticias_I h2{
+    width: 610px;
+    font-size: 39px;
+}
+
+.Noticias_I p{
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.Lema{
+    margin-top: 8px;
+}
+
+.Dato{
+    margin-top: 22px;
+}
+
+.Dato span{
+    font-weight: 500;
+    color: #ff3281;
+}
+
+.Formulario{
+    width: 542px;
+    margin-top: 26px;
+    padding: 14px 20px 18px 20px;
+    border: 4px solid #ff3281;
+    border-radius: 4px;
+}
+
+.Formulario label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Formulario input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 22px;
+    padding: 0px 22px;
+    border: 2px solid #b8b8b8;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.Formulario input::placeholder{
+    color: #777777;
+}
+
+.Formulario input:focus{
+    outline: none;
+    border-color: #ff3281;
+}
+
+.Formulario button{
+    display: block;
+    width: 181px;
+    height: 46px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: black;
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Formulario button:hover{
+    background-color: #ff3281;
+}
+
+.Noticias_D{
+    display: inline-block;
+    vertical-align: top;
+    width: 575px;
+}
+
+.Video{
+    width: 578px;
+    height: 345px;
+    margin: 63px 0px 0px 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Video iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+/* PIE */
+.Pie{
+    height: 198px;
+    padding-top: 20px;
+    background-color: #fff9f1;
+}
+
+.Pie_I{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding-left: 15px;
+}
+
+.Pie_I img{
+    width: 151px;
+    height: 151px;
+}
+
+.Pie_D{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 60px 15px 0px 0px;
+    text-align: right;
+}
+
+.Pie_D p{
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ff3281;
+}
+
+@media (max-width: 1199px){
+    .ancho{
+        width: 100%;
+        padding: 0px 24px;
+    }
+
+    .Cabecera{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .Cabecera .ancho{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Logo,
+    .Redes{
+        width: auto;
+    }
+
+    .Redes{
+        padding: 0px;
+    }
+
+    .Menu{
+        width: 100%;
+    }
+
+    .Principal{
+        height: auto;
+        padding: 100px 0px;
+    }
+
+    .Productos,
+    .Equipo{
+        height: auto;
+        padding: 30px 0px;
+    }
+
+    .Productos .ancho,
+    .Noticias{
+        display: flex;
+        gap: 24px;
+    }
+
+    .Productos_I,
+    .Productos_D,
+    .Noticias_I,
+    .Noticias_D{
+        width: 50%;
+        padding: 0px;
+    }
+
+    .Productos_I p,
+    .Noticias_I h2,
+    .Formulario{
+        width: 100%;
+    }
+
+    .Productos_D img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Equipo_I{
+        width: 50%;
+        padding-right: 24px;
+    }
+
+    .Equipo_I img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Equipo_D{
+        width: 50%;
+        padding: 0px;
+    }
+
+    .Noticias{
+        padding: 30px 24px 60px 24px;
+    }
+
+    .Noticias h2{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .Video{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .Pie{
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .Pie .ancho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Pie_I,
+    .Pie_D{
+        width: auto;
+        padding: 0px;
+    }
+
+    .Principal br{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .Menu{
+        height: auto;
+    }
+
+    .Menu a{
+        width: 50%;
+    }
+
+    .Principal h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .Principal p{
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .Boton_Rosa{
+        margin-right: 12px;
+    }
+
+    .Productos .ancho,
+    .Noticias{
+        flex-direction: column;
+    }
+
+    .Productos_I,
+    .Productos_D,
+    .Equipo_I,
+    .Equipo_D,
+    .Noticias_I,
+    .Noticias_D{
+        width: 100%;
+    }
+
+    .Productos_I p{
+        line-height: 28px;
+    }
+
+    .Productos_D img{
+        max-width: 427px;
+        margin: auto;
+    }
+
+    .Equipo_I{
+        padding: 0px 0px 24px 0px;
+    }
+
+    .Noticias h2{
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .Pie .ancho{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .Pie_D{
+        text-align: center;
+    }
+}

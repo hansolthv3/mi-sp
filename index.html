@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spa Salon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="Cabecera">
+    <div class="ancho">
+      <div class="Logo">
+        <a href="#"><img src="imagenes/logocabecera.jpg" alt="Spa Salon"></a>
+      </div><!--
+   --><div class="Redes">
+        <a href="#"><img src="imagenes/icono_facebook.jpg" alt="Facebook"></a><!--
+     --><a href="#"><img src="imagenes/icono_instagram.jpg" alt="Instagram"></a><!--
+     --><a href="#"><img src="imagenes/icono_twitter.jpg" alt="Twitter"></a>
+      </div>
+      <div class="Menu">
+        <a href="#">GALERIA</a><!--
+     --><a href="#">PRECIOS</a><!--
+     --><a href="#">CONTACTANOS</a><!--
+     --><a href="#">EQUIPO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="Principal centrar">
+    <div class="ancho">
+      <h1>PROMOCIONES DE MARZO</h1>
+      <p>
+        Se acerca la epoca de playa y por eso preparamos estas dos
+        <br>
+        promociones ideales para ti.
+      </p>
+      <a class="Boton_Rosa" href="#">Soliciar Promocion</a><!--
+   --><a class="Boton_Contorno" href="https://youtu.be/w4qaODLR_Xg?si=TOqUGmWLNQwtsvWN" target="_blank">ver Video</a>
+    </div>
+  </div>
+
+  <div class="Productos">
+    <div class="ancho">
+      <div class="Productos_I">
+        <h2>Los productos Science of Beauty</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum incidunt aut sed, vitae quas vel consequuntur dolorum ullam neque assumenda totam. At expedita id minus voluptatem laudantium laboriosam! Voluptates molestias soluta dicta cumque nostrum quas quia totam sint minima. Officiis non consequuntur molestias libero at, asperiores vero nam minima.
+        </p>
+      </div><!--
+   --><div class="Productos_D">
+        <img src="imagenes/fotovelas.jpg" alt="Productos de belleza con hojas y flor">
+      </div>
+    </div>
+  </div>
+
+  <div class="Equipo">
+    <div class="ancho">
+      <h2 class="centrar">Buscamos talento para integrarlos a nuestro equipo</h2>
+      <div class="Equipo_I">
+        <img src="imagenes/fotoaromatizante.jpg" alt="Frascos de productos de spa en una bolsa de tela">
+      </div><!--
+   --><div class="Equipo_D">
+        <div class="Puesto">
+          <h3>Puesto de trabajo para Recepcionista</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p>
+        </div>
+        <div class="Puesto">
+          <h3>Puesto de trabajo para Masajista</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p>
+        </div>
+        <div class="Puesto">
+          <h3>Puesto de trabajo para Nutriologo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ancho Noticias">
+    <div class="Noticias_I">
+      <h2>Recibe noticias y promociones de SPA SALON</h2>
+      <p class="Lema">
+        Un lugar para consentirte de pies a cabeza
+        <br>
+        Servicio de salón estética y Spa personalizado
+      </p>
+      <p class="Dato"><span>TELEFONO:</span> 999 420 8871</p>
+      <p class="Dato"><span>CORREO:</span> info@spasalon.com</p>
+      <form class="Formulario" id="formulario" action="#" method="post">
+        <label for="email">Tu dirección de correo electrónico</label>
+        <input type="text" id="email" name="email" placeholder="tunombre@example.com">
+        <button type="submit">Enviar</button>
+      </form>
+    </div><!--
+ --><div class="Noticias_D">
+      <h2>Nuestras Instalaciones</h2>
+      <div class="Video">
+        <iframe src="https://www.youtube.com/embed/w4qaODLR_Xg" title="Instalaciones de Spa Salon" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="Pie">
+    <div class="ancho">
+      <div class="Pie_I">
+        <img src="imagenes/logo_spa.png" alt="Spa Salon">
+      </div><!--
+   --><div class="Pie_D">
+        <p>Any Darina Santiago Martinez</p>
+        <p>Programación Web</p>
+        <p>7SA</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#formulario").submit(function () {
+        const correo = $("#email").val().trim();
+
+        if (correo === "") {
+          alert("Escribe tu email");
+          $("#email").focus();
+          return false;
+        }
+
+        const expresionCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!expresionCorreo.test(correo)) {
+          alert("Escribe un email válido");
+          $("#email").focus();
+          return false;
+        }
+
+        alert("Gracias, pronto recibirás nuestras promociones");
+        return true;
+      });
+    });
+  </script>
+</body>
+</html>
